@@ -1,0 +1,25 @@
+package kanald.blutv.util.android;
+
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class AndroidConstantsMainPage  extends BluTvAndroidConstants {
+
+	public AndroidConstantsMainPage(AppiumDriver<MobileElement> driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+	String baseId= "com.dsmart.blu.android:id/";
+	
+	public By BLULOGO = By.id( baseId + "iv_logo");
+	public By MENU = By.xpath("//android.widget.ImageButton[@content-desc='Slider Menu Opened']");
+	public By USERLOGINBUTTON = By.id( baseId + "bt_user_login");
+	public By USERLOGINBUTTONONLANDINGPAGE = By.id( baseId + "bt_dialog_sliding_landing_page_login");
+	public By STARTFREEMEMBERSHIPONMENU= By.id(baseId + "bt_create_account");
+	public By STARTFREEMEMBERSHIPONLANDING= By.id(baseId + "bt_dialog_sliding_landing_page_register");
+	public By LANDINGPAGELOGINBUTTON=  By.name("Üye Girişi");
+
+}

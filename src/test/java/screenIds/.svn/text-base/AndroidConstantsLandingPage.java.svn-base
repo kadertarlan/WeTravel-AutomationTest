@@ -1,0 +1,20 @@
+package kanald.blutv.util.android;
+
+import org.openqa.selenium.By;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class AndroidConstantsLandingPage extends BluTvAndroidConstants {
+
+	public AndroidConstantsLandingPage(AppiumDriver<MobileElement> driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	String baseId= "com.dsmart.blu.android:id/";
+	public By PAGECONTINUE = By.id( baseId + "tv_landing_page_continue");
+	public By LOGINPW = By.id( baseId + "et_login_pw");
+	
+		
+	}
+

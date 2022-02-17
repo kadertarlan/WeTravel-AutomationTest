@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/testProjects/!svn/ver/7820/dogantv/BluTv/src/test/java/kanald/blutv/util/android
+END
+BluTvAndroidConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/testProjects/!svn/ver/7834/dogantv/BluTv/src/test/java/kanald/blutv/util/android/BluTvAndroidConstants.java
+END
+AndroidConstantsLoginPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/testProjects/!svn/ver/7820/dogantv/BluTv/src/test/java/kanald/blutv/util/android/AndroidConstantsLoginPage.java
+END
+AndroidConstantsMainPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/testProjects/!svn/ver/7820/dogantv/BluTv/src/test/java/kanald/blutv/util/android/AndroidConstantsMainPage.java
+END
+AndroidConstantsPaymentOptionsPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/testProjects/!svn/ver/7830/dogantv/BluTv/src/test/java/kanald/blutv/util/android/AndroidConstantsPaymentOptionsPage.java
+END
+AndroidConstantsLandingPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/testProjects/!svn/ver/7820/dogantv/BluTv/src/test/java/kanald/blutv/util/android/AndroidConstantsLandingPage.java
+END
+AndroidConstantsRegisterPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/testProjects/!svn/ver/7820/dogantv/BluTv/src/test/java/kanald/blutv/util/android/AndroidConstantsRegisterPage.java
+END

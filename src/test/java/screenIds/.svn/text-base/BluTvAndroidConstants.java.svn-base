@@ -1,0 +1,36 @@
+package kanald.blutv.util.android;
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import kanald.blutv.base.BasePage;
+import kanald.blutv.base.BasePageAndroidPhones;
+import kanald.blutv.util.PhoneProperties;
+
+public class BluTvAndroidConstants extends BasePageAndroidPhones{
+	public BluTvAndroidConstants(AppiumDriver<MobileElement> driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	// BASE ID
+	String baseId= "com.dsmart.blu.android:id/";
+	
+	//GENERAL ID
+	public By ALERTPAGE = By.id( baseId + "tv_pop_up_description");
+ 
+	public By BTTNTAMAM = By.name("Tamam");
+	public By BTTNHAYIR = By.name("Hayır");
+	public By BTTNEVET = By.name("Evet");
+	
+	
+	// PHONES ID
+	// BU CONSTANTLAR TELEFON BAZLI DEĞİŞKEN OLUP phoneConstants.properties 
+	// Dosyasında tanımlanmaktadırlar. Eksik olan her telefon için tanımlanması
+	// gerekmektedir.
+	
+	public By WIFI = By.name(PhoneProperties.wifi());
+	public By DATA = By.name(PhoneProperties.data());
+	public By CAMERA = By.name(PhoneProperties.camera());
+}

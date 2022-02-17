@@ -1,0 +1,25 @@
+package kanald.blutv.util.android;
+
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class AndroidConstantsLoginPage extends BluTvAndroidConstants{
+
+	public AndroidConstantsLoginPage(AppiumDriver<MobileElement> driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	String baseId= "com.dsmart.blu.android:id/";
+	public By LOGINUSERNAME = By.id( baseId + "et_login_username");
+	public By LOGINPASSWORD = By.id(baseId + "et_login_pw");
+	public By POPUPDESC = By.id(baseId + "tv_pop_up_description");
+	public By DOLOGINBUTTON = By.id(baseId + "buttonLoginDoLogin");
+	public By FORGOTPASS = By.id(baseId + "buttonLoginForgotPw");
+	public By CREATEACCOUNT = By.id(baseId + "buttonLoginCreateAccount");
+	public By STARTFREEMEMBERSHIP= By.id(baseId + "bt_dialog_sliding_landing_page_register");
+
+	
+}

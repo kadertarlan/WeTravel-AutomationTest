@@ -1,0 +1,27 @@
+package kanald.blutv.util.android;
+
+import org.openqa.selenium.By;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class AndroidConstantsRegisterPage extends BluTvAndroidConstants {
+
+	public AndroidConstantsRegisterPage(AppiumDriver<MobileElement> driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+    String baseId= "com.dsmart.blu.android:id/";
+	
+	public By ACCOUNTNAME = By.id( baseId + "et_create_account_name");
+	public By ACCOUNTSURNAME = By.id( baseId + "et_create_account_surname");
+	public By ACCOUNTEMAIL = By.id( baseId + "et_create_account_email");
+	public By ACCOUNTPASS = By.id( baseId + "et_create_account_pw");
+	public By ACCOUNTREPASS = By.id( baseId + "et_create_account_pw_repeat");
+	public By ACCOUNTAGREEMENT = By.id( baseId + "cb_create_account_sozlesme");
+	public By CREATEACCOUNT = By.id( baseId + "bt_create_account");
+	
+
+
+
+}
